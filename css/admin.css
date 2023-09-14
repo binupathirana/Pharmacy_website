@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text]{
+	width: 100%;
+}
+input[type=password]{
+	width: 100%;
+}
+input[type=number]{
+	width: 100%;
+}
+
+input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.wrapper{
+	padding: 1%;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+.font{
+	font-size: 13px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.tbl-full{
+	width: 100%;
+}
+
+.tbl-30{
+	width: 40%;
+}
+
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+	text-align: left;
+}
+
+table tr td{
+	padding: 1%;
+}
+
+.btn-primary{
+	background-color: #8A8CE4;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-primary:hover{
+	background-color: #463972;
+}
+
+.btn-secondary{
+	background-color: #518B9A;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-secondary:hover{
+	background-color: #223F45;
+}
+
+.btn-danger{
+	background-color: #B53436;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-danger:hover{
+	background-color: #7C1718;
+}
+
+.success{
+	color: #1A00FF;
+}
+
+.error{
+	color: #FF0004;
+}
+
+/*CSS for Menu*/
+
+.menu{
+	border-bottom: 1px solid grey;
+}
+.menu ul{
+	list-style-type: none;
+}
+
+.menu ul li{
+	display: inline;
+	padding: 1%;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #8E8A8A;
+}
+
+.menu ul li a:hover{
+	color: #2A2A2A;
+}
+
+/*CSS for Main Content*/
+
+.main-content{
+	background-color: #D8E6FF;
+	padding: 3% 0;
+}
+
+.col-4{
+	width: 19%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+}
+
+/*CSS for Footer*/
+.footer{
+	background-color: #8E8A8A;
+	color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.small{
+	font-size: 12px;
+}
+
+/*CSS for login*/
+.login{
+	border: 1.7px solid white;
+	width: 30%;
+	margin: 5% auto;
+	padding: 10% 3% 3% 3%;
+	/*background-color: #D8E6FF;*/
+}
+.login-body{
+	background-image: url("../images/orderbg2.jpg");
+}
+.img-responsive{
+    width: 100%;
+}
+
+.img-responsive-logo{
+    width: 10%;
+}
